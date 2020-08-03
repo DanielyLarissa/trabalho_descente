@@ -1,0 +1,66 @@
+html,
+body {
+    margin: 0;
+}
+
+#imagemcapa {
+    background: url("img/capa.jpg");
+    height: 100%;
+    text-align: center;
+    
+}
+
+#titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-shadow: 2px 2px black;
+    padding-top: 10%;
+    font-size: 50px;
+    line-height: 0.6;
+
+}
+
+#subtitulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-top: 3px solid white;
+    text-shadow: 2px 2px black;
+}
+
+#acao {
+    text-shadow: 1px 1px black;
+    font-family: sans-serif;
+    border: 3px solid white;
+    border-radius: 8px;
+    color: white;
+    padding: 10 20 10 20;
+    text-decoration: none;
+    font-size: 20px;
+	margin-top:50%;
+}
+a:hover {
+    background-color:#00008B;
+}
+.icone {
+    width: 51px;
+}
+
+section {
+    padding: 20px;
+}
+
+.destaque {
+    background-color:whitesmoke;
+}
+
+.imgpolos{
+    width: 30%;
+}
+
+.coluna{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
